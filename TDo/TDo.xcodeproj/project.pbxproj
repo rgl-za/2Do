@@ -16,6 +16,8 @@
 		BD48BE012744EF6D00851D5D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BE002744EF6D00851D5D /* ListView.swift */; };
 		BD48BE032744F26B00851D5D /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BE022744F26B00851D5D /* ListRowView.swift */; };
 		BD48BE052744F4DD00851D5D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BE042744F4DD00851D5D /* AddView.swift */; };
+		BDA8839F27567C1F00D393F0 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8839E27567C1F00D393F0 /* ListViewModel.swift */; };
+		BDC70B8A2756A68D00310C7D /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC70B892756A68D00310C7D /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		BD48BE002744EF6D00851D5D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		BD48BE022744F26B00851D5D /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		BD48BE042744F4DD00851D5D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		BDA8839E27567C1F00D393F0 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		BDC70B892756A68D00310C7D /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				BD165C29274EA1F7007324A0 /* Model */,
+				BDA8839D27567BC600D393F0 /* ViewModels */,
 				BD48BDFF2744EF5C00851D5D /* Views */,
 				BD48BDD42744EF4F00851D5D /* TDoApp.swift */,
 				BD48BDD82744EF5000851D5D /* Assets.xcassets */,
@@ -151,8 +156,17 @@
 				BD48BE002744EF6D00851D5D /* ListView.swift */,
 				BD48BE022744F26B00851D5D /* ListRowView.swift */,
 				BD48BE042744F4DD00851D5D /* AddView.swift */,
+				BDC70B892756A68D00310C7D /* NoItemsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BDA8839D27567BC600D393F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDA8839E27567C1F00D393F0 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +300,10 @@
 			files = (
 				BD165C2B274EA20B007324A0 /* ItemModel.swift in Sources */,
 				BD48BE052744F4DD00851D5D /* AddView.swift in Sources */,
+				BDA8839F27567C1F00D393F0 /* ListViewModel.swift in Sources */,
 				BD48BDD52744EF4F00851D5D /* TDoApp.swift in Sources */,
 				BD48BE012744EF6D00851D5D /* ListView.swift in Sources */,
+				BDC70B8A2756A68D00310C7D /* NoItemsView.swift in Sources */,
 				BD48BE032744F26B00851D5D /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
