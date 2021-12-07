@@ -20,13 +20,13 @@ struct AddView: View {
     var body: some View {
         ScrollView {
             VStack {
-                TextField("Something here...", text: $textFieldText)
+                TextField("할 일을 적어주세요", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height:55)
                     .background(Color(UIColor.secondarySystemBackground))
                     .cornerRadius(10)
                 Button(action: saveButtonPressed, label: {
-                    Text("save".uppercased())
+                    Text("저장하기".uppercased())
                         .foregroundColor(.white)
                         .frame(height:55)
                         .frame(maxWidth: .infinity)
@@ -36,7 +36,7 @@ struct AddView: View {
             }
             .padding(15)
         }
-        .navigationTitle("Add an Item")
+        .navigationTitle("2 :Do 작성 🖊")
         .alert(isPresented: $showAlert, content: getAlert)
     }
     
@@ -49,7 +49,7 @@ struct AddView: View {
     
     func textIsAppropriate() -> Bool {
         if textFieldText.count < 3 {
-            alertTitle = "3글자 이상 입력"
+            alertTitle = "3글자 이상 입력하세요😰"
             showAlert.toggle()
             return false
         }

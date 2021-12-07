@@ -25,7 +25,7 @@ struct NoItemsView: View {
                 NavigationLink(
                     destination: AddView(),
                     label: {
-                        Text("할 일 작성하기")
+                        Text("할 일 작성하기 🥳")
                             .foregroundColor(.white)
                             .font(.headline)
                             .frame(height: 55)

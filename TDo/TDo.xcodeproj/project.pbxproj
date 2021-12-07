@@ -18,6 +18,7 @@
 		BD48BE052744F4DD00851D5D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BE042744F4DD00851D5D /* AddView.swift */; };
 		BDA8839F27567C1F00D393F0 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8839E27567C1F00D393F0 /* ListViewModel.swift */; };
 		BDC70B8A2756A68D00310C7D /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC70B892756A68D00310C7D /* NoItemsView.swift */; };
+		BDD032C0275FACD600BFEC50 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD032BF275FACD600BFEC50 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BD48BE042744F4DD00851D5D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		BDA8839E27567C1F00D393F0 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		BDC70B892756A68D00310C7D /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		BDD032BF275FACD600BFEC50 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				BD48BE022744F26B00851D5D /* ListRowView.swift */,
 				BD48BE042744F4DD00851D5D /* AddView.swift */,
 				BDC70B892756A68D00310C7D /* NoItemsView.swift */,
+				BDD032BF275FACD600BFEC50 /* Launch Screen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD032C0275FACD600BFEC50 /* Launch Screen.storyboard in Resources */,
 				BD48BDDC2744EF5000851D5D /* Preview Assets.xcassets in Resources */,
 				BD48BDD92744EF5000851D5D /* Assets.xcassets in Resources */,
 			);
